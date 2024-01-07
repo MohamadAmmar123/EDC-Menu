@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Item 1",
+        "imageLink": "https://edc-uum.github.io/your-repo-name/images/image1.png"
+    },
+    {
+        "name": "Item 2",
+        "imageLink": null
+    },
+    {
+        "name": "Item 3",
+        "imageLink": "https://edc-uum.github.io/your-repo-name/images/image2.png"
+    }
+]
