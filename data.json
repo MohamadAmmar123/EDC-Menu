@@ -1,10 +1,4 @@
 [
     {
-        "name": "Item 1",
-        "pdfLink": "https://edc-uum.github.io/EDC-Menu/Menuu.pdf.pdf"
-    },
-    {
-        "name": "Item 2",
-        "pdfLink": null
-    }
+        "https://edc-uum.github.io/EDC-Menu/Menuu.pdf.pdf"
 ]
