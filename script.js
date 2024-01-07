@@ -16,11 +16,12 @@ function displayMenu(menuData) {
         itemName.textContent = item.name;
         menuItem.appendChild(itemName);
 
-        if (item.imageLink) {
-            const itemImage = document.createElement('img');
-            itemImage.classList.add('menu-image');
-            itemImage.src = item.imageLink;
-            menuItem.appendChild(itemImage);
+        if (item.pdfLink) {
+            const pdfLink = document.createElement('a');
+            pdfLink.textContent = 'Open PDF';
+            pdfLink.href = item.pdfLink;
+            pdfLink.target = '_blank'; // Open link in a new tab
+            menuItem.appendChild(pdfLink);
         }
 
         menuContainer.appendChild(menuItem);
